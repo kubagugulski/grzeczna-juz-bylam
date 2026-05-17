@@ -21,3 +21,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.terms > h2 {
+  font-weight: bold;
+}

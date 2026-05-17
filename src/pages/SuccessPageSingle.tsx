@@ -19,8 +19,8 @@ export default function SuccessPageSingle() {
           </p>
 
           <a 
-            href="#" 
-            onClick={(e) => { e.preventDefault(); alert("Tu rozpocznie się pobieranie Twojego ebooka."); }}
+            href="/ebook-grzeczna-juz-bylam.pdf" 
+              download
             className="flex items-center justify-center gap-2 w-full bg-[#e7b78f] text-stone-900 py-4 rounded-xl font-bold text-lg hover:bg-[#d5a378] transition-colors mb-6 shadow-md shadow-[#e7b78f]/30"
           >
             <Download className="w-5 h-5" /> Pobierz E-book (PDF)

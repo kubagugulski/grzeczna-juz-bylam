@@ -96,7 +96,7 @@ export default function LandingPage() {
             transition={{ duration: 0.5 }}
             className="text-[#d8976b] font-semibold tracking-wider text-sm md:text-base uppercase mb-6"
           >
-            Dla kobiet 30+, które zapomniały o sobie
+            Dla kobiet, które zapomniały o sobie
           </motion.p>
           
           <motion.h1 
@@ -396,8 +396,7 @@ export default function LandingPage() {
               </div>
 
               <a 
-                href="#oferta" 
-                onClick={(e) => { e.preventDefault(); document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' }); }}
+                href="https://buy.stripe.com/7sY28k2jH3mvdTw8eWdfG01" 
                 className="w-full inline-flex items-center justify-center gap-2 bg-white text-stone-800 border-2 border-stone-200 px-6 py-4 rounded-xl font-bold transition-all hover:border-[#c28557] hover:text-[#c28557]"
               >
                 Kupuję e-booka
@@ -438,8 +437,7 @@ export default function LandingPage() {
               </div>
 
               <a 
-                href="#" 
-                onClick={(e) => { e.preventDefault(); alert("Tu zostanie podpięty Twój link płatności Stripe dla Pakietu 3."); }}
+                href="https://buy.stripe.com/bJe6oA1fD5uDg1E0MudfG03" 
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#e7b78f] text-stone-900 border-2 border-[#e7b78f] px-6 py-4 rounded-xl font-bold transition-all hover:bg-[#d5a378] hover:border-[#d5a378] transform hover:scale-[1.02] shadow-[0_0_20px_rgba(231,183,143,0.3)]"
               >
                 Wybieram pełny pakiet
@@ -468,8 +466,7 @@ export default function LandingPage() {
               </div>
 
               <a 
-                href="#" 
-                onClick={(e) => { e.preventDefault(); alert("Tu zostanie podpięty Twój link płatności Stripe dla Pakietu 2."); }}
+                href="https://buy.stripe.com/5kQ5kw6zXg9hdTw1QydfG02"
                 className="w-full inline-flex items-center justify-center gap-2 bg-white text-stone-800 border-2 border-stone-200 px-6 py-4 rounded-xl font-bold transition-all hover:border-[#c28557] hover:text-[#c28557]"
               >
                 Wybieram pakiet
@@ -532,10 +529,6 @@ export default function LandingPage() {
             <FaqItem 
               question="Mam 46 lat. Czy przypadkiem dla mnie nie jest już po prostu za późno?"
               answer="Nigdy nie jest za późno, by zacząć szanować swój czas i układ nerwowy! Nasze czytelniczki mają nierzadko po 40, 50, a nawet 60 lat i przyznają, że najtrudniejszy jest zawsze pierwszy krok. Najlepszy dzień na zmianę był wczoraj, drugi najlepszy jest dzisiaj."
-            />
-            <FaqItem 
-              question="Jak otrzymam swój egzemplarz?"
-              answer="Pliki trafią do Twojej skrzynki emailowej natychmiast po zakończeniu w 100% bezpiecznej płatności. Jeśli kupisz je więc np. o 2:00 w nocy - masz je już o 2:01 gotowe do czytania i działania na swoim telefonie."
             />
           </div>
         </div>

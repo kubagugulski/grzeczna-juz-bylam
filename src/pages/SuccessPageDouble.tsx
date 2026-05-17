@@ -20,16 +20,16 @@ export default function SuccessPageDouble() {
 
           <div className="space-y-4 mb-8">
             <a 
-              href="#" 
-              onClick={(e) => { e.preventDefault(); alert("Tu rozpocznie się pobieranie ebooka: Grzeczna już byłam."); }}
+              href="/ebook-grzeczna-juz-bylam.pdf" 
+              download
               className="flex items-center justify-center gap-2 w-full bg-[#e7b78f] text-stone-900 py-4 rounded-xl font-bold text-lg hover:bg-[#d5a378] transition-colors shadow-md shadow-[#e7b78f]/30"
             >
               <Download className="w-5 h-5" /> Pobierz: Grzeczna już byłam
             </a>
 
             <a 
-              href="#" 
-              onClick={(e) => { e.preventDefault(); alert("Tu rozpocznie się pobieranie ebooka: Żona, nie matka."); }}
+              href="/ebook-zona-nie-matka.pdf" 
+              download
               className="flex items-center justify-center gap-2 w-full bg-[#e7b78f] text-stone-900 py-4 rounded-xl font-bold text-lg hover:bg-[#d5a378] transition-colors shadow-md shadow-[#e7b78f]/30"
             >
               <Download className="w-5 h-5" /> Pobierz: Żona, nie matka

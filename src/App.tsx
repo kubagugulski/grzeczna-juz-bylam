@@ -13,9 +13,9 @@ export default function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/regulamin" element={<TermsPage />} />
         <Route path="/polityka-prywatnosci" element={<PrivacyPage />} />
-        <Route path="/sukces-single" element={<SuccessPageSingle />} />
-        <Route path="/sukces-double" element={<SuccessPageDouble />} />
-        <Route path="/sukces-triple" element={<SuccessPageTriple />} />
+        <Route path="/sukces-single-67" element={<SuccessPageSingle />} />
+        <Route path="/sukces-double-69" element={<SuccessPageDouble />} />
+        <Route path="/sukces-triple-aa34" element={<SuccessPageTriple />} />
       </Routes>
     </BrowserRouter>
   );
